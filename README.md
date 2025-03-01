@@ -65,3 +65,8 @@ This project is written in **C**, a low-level and efficient language, making it 
   <pre style="background:#fff;padding:10px;border-radius:5px;">thisisencryptionhillcipher</pre>
 </div>
 
+**Compile the programs** using a C compiler:
+   ```bash
+   gcc Encrypt.c -o encrypt
+   gcc Decrypt.c -o decrypt
+
