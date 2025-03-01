@@ -39,15 +39,17 @@ This project is written in **C**, a low-level and efficient language, making it 
 4. The **inverse matrix is multiplied** with the ciphertext blocks to recover plaintext.
 5. The decrypted message is saved to `plaintext.txt`.
    
-## 📜 Encryption Example
+<div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px; background: #f8f9fa;">
+  <h2>🧵 Encryption Example</h2>
 
-#### **plaintext.txt**
-thisisencryptionhillcipher
+  <strong>plaintext.txt</strong>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">thisisencryptionhillcipher</pre>
 
-### ***Provide the Key Matrix**
-2 11
-3 11
+  <strong>🔹 Provide the Key Matrix</strong>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">2 11<br>3 11</pre>
 
-### **ciphertext.txt**
-thisisencryptionhillcipher
+  <strong>ciphertext.txt</strong>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">thisisencryptionhillcipher</pre>
+</div>
+
 
