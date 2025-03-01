@@ -39,10 +39,15 @@ This project is written in **C**, a low-level and efficient language, making it 
 4. The **inverse matrix is multiplied** with the ciphertext blocks to recover plaintext.
 5. The decrypted message is saved to `plaintext.txt`.
    
+## 📜 Encryption Example
 
-        <div class="footer">
-            <p>✨ Created by [Your Name] | 📌 GitHub: [Your GitHub Link]</p>
-        </div>
-    </div>
-</body>
-</html>
+#### **plaintext.txt**
+thisisencryptionhillcipher
+
+### ***Provide the Key Matrix**
+2 11
+3 11
+
+### **ciphertext.txt**
+thisisencryptionhillcipher
+
