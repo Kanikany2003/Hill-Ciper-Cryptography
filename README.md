@@ -39,41 +39,6 @@ This project is written in **C**, a low-level and efficient language, making it 
 4. The **inverse matrix is multiplied** with the ciphertext blocks to recover plaintext.
 5. The decrypted message is saved to `plaintext.txt`.
    
-        <h3>Encryption</h3>
-        <pre>
-Input (plaintext.txt): thisisencryptionhillcipher
-Key Matrix (2×2):
-2 11
-3 11
-Output (ciphertext.txt):  ZEBBW
-        </pre>
-        LEGOGOVZJLFDWPPDYFNYOQDSNR
-        <pre>
-
-<h2>📂 Files</h2>
-        <ul>
-            <li><code>Encrypt.c</code> - Encryption program</li>
-            <li><code>Decrypt.c</code> - Decryption program</li>
-            <li><code>plaintext.txt</code> - Input file containing the original message</li>
-            <li><code>ciphertext.txt</code> - Output file containing the encrypted message</li>
-        </ul>
-
-        <h2>🚀 How to Run</h2>
-        <h3>Compile the programs</h3>
-        <pre>
-gcc Encrypt.c -o encrypt
-gcc Decrypt.c -o decrypt
-        </pre>
-
-        <h3>Run the encryption</h3>
-        <pre>
-./encrypt
-        </pre>
-
-        <h3>Run the decryption</h3>
-        <pre>
-./decrypt
-        </pre>
 
         <div class="footer">
             <p>✨ Created by [Your Name] | 📌 GitHub: [Your GitHub Link]</p>
