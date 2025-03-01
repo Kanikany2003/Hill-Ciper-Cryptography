@@ -40,16 +40,28 @@ This project is written in **C**, a low-level and efficient language, making it 
 5. The decrypted message is saved to `plaintext.txt`.
    
 <div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px; background: #f8f9fa;">
-  <h2>🧵 Encryption Example</h2>
+  <h2> Encryption Example</h2>
 
   <strong>plaintext.txt</strong>
   <pre style="background:#fff;padding:10px;border-radius:5px;">thisisencryptionhillcipher</pre>
 
-  <strong>🔹 Provide the Key Matrix</strong>
+  <strong>Provide the Key Matrix</strong>
   <pre style="background:#fff;padding:10px;border-radius:5px;">2 11<br>3 11</pre>
 
   <strong>ciphertext.txt</strong>
-  <pre style="background:#fff;padding:10px;border-radius:5px;">thisisencryptionhillcipher</pre>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">LEGOGOVZJLFDWPPDYFNYOQDSNR</pre>
 </div>
 
+<div style="border: 2px solid #ddd; padding: 15px; border-radius: 5px; background: #f8f9fa;">
+  <h2> Decryption Example</h2>
+
+  <strong>ciphertext.txt</strong>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">LEGOGOVZJLFDWPPDYFNYOQDSNR</pre>
+
+  <strong>Provide the Key Matrix</strong>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">2 11<br>3 11</pre>
+
+  <strong>plaintext.txt</strong>
+  <pre style="background:#fff;padding:10px;border-radius:5px;">thisisencryptionhillcipher</pre>
+</div>
 
