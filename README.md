@@ -41,23 +41,16 @@ This project is written in **C**, a low-level and efficient language, making it 
    
         <h3>Encryption</h3>
         <pre>
-Input (plaintext.txt):  HELLO
+Input (plaintext.txt): thisisencryptionhillcipher
 Key Matrix (2×2):
-1 2
-3 4
+2 11
+3 11
 Output (ciphertext.txt):  ZEBBW
         </pre>
-
-        <h3>Decryption</h3>
+        LEGOGOVZJLFDWPPDYFNYOQDSNR
         <pre>
-Input (ciphertext.txt):  ZEBBW
-Key Matrix (2×2):
-1 2
-3 4
-Output (plaintext.txt):  HELLO
-        </pre>
 
-        <h2>📂 Files</h2>
+<h2>📂 Files</h2>
         <ul>
             <li><code>Encrypt.c</code> - Encryption program</li>
             <li><code>Decrypt.c</code> - Decryption program</li>
